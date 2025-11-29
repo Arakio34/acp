@@ -3,11 +3,6 @@
 #include <math.h>
 #include <stdlib.h>
 
-struct matrice {
-	int ligne;
-	int colone;
-	float ** coeficient;
-} typedef matrice;
 
 
 matrice add(matrice * m1, matrice * m2)
